@@ -11,6 +11,6 @@ pragma solidity ^0.4.25;
               uint dna;
           }
 
-          Zombie[] public zombies;
+          Zombie[] public zombies; // public keyword makes the array accessible from outside the contract
 
       }
